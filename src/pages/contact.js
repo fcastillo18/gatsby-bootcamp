@@ -1,9 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
+import Footer from "../components/footer"
+import Header from "../components/header"
 
 const Contact = () => {
   return (
     <div>
+      <Header />
       <h1>Contact Page</h1>
       <h2>
         Contact me in Twitter:
@@ -12,6 +14,7 @@ const Contact = () => {
           @franklincr11
         </a>
       </h2>
+      <Footer />
     </div>
   )
 }
