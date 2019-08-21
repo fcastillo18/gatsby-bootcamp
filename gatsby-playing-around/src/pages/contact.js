@@ -1,6 +1,4 @@
 import React from "react"
-import Footer from "../components/footer"
-import Header from "../components/header"
 import Layout from "../components/layout"
 
 const Contact = () => {
@@ -11,7 +9,11 @@ const Contact = () => {
         <h2>
           Contact me in Twitter:
           {/* _blanc open a new tab when clicking the link */}
-          <a href="https://twitter.com/franklincr11" target="_blank">
+          <a
+            href="https://twitter.com/franklincr11"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             @franklincr11
           </a>
         </h2>
