@@ -13,6 +13,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     {
+      // telling Gatsby to source content from the file System
       resolve: "gatsby-source-filesystem",
       options: {
         name: "src",
