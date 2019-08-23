@@ -7,7 +7,7 @@
 module.exports = {
   /* Using this property to use graphql to fetch this data */
   siteMetadata: {
-    title: "Gatsby",
+    title: "Blog with Gatsby",
     author: "Franklin Castillo",
   },
   plugins: [

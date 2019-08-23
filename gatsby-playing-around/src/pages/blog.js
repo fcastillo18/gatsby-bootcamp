@@ -22,7 +22,6 @@ const BlogPage = () => {
     <div>
       <Layout>
         <h1>Blog</h1>
-        <h2>Posts will show up here later on</h2>
         <ol>
           {data.allMarkdownRemark.edges.map(edge => {
             return (
