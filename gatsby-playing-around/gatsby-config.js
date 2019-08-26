@@ -28,6 +28,7 @@ module.exports = {
       },
     },
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp", // and this to avoid error https://github.com/gatsbyjs/gatsby/issues/15344#issuecomment-508242874
     {
       resolve: "gatsby-transformer-remark",
       options: {
